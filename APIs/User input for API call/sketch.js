@@ -3,7 +3,7 @@ let bgColor = 127;
 let lowT, highT;
 let baseurl = "https://api.openweathermap.org/data/2.5/weather?q=";
 let city = ""
-let apikey = "&appid=527babb16277dfd8046941982848d4ae";
+let apikey = "&appid= YOUR API KEY HERE";
 let units = "&units=imperial";
 let button;
 let loc;
