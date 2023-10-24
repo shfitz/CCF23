@@ -2,7 +2,7 @@
 
 // variables
 // my client ID would go after the &token
-let clientID = "&token=5LJcRQVJtIKNKC7YsAnGyxKkTuOuJho4dq2kuJ1m";
+let clientID = "&token= YOUR KEY HERE";
 let baseurl = "https://freesound.org/apiv2/search/text/?query=";
 // filters
 let kind = "&filter=type:mp3";
