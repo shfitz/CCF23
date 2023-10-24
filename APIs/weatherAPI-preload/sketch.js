@@ -1,9 +1,10 @@
 let weather; // hold the data
 let bgColor;
-
+let mykey = "Put your API KEY here";
 function preload() {
   // load JSON with my appID
-  weather = loadJSON("https://api.openweathermap.org/data/2.5/weather?lat=40.650002&lon=-73.949997&appid=527babb16277dfd8046941982848d4ae&units=imperial");
+  let url = "https://api.openweathermap.org/data/2.5/weather?lat=40.650002&lon=-73.949997&units=imperial&appid=" + mykey;
+  weather = loadJSON(url);
 }
 
 function setup() {
